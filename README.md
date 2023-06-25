@@ -28,8 +28,13 @@ Administrator Dashboard: An administrative dashboard is available to manage user
 YelpCamp will be built using modern web development technologies. Some of the key technologies and frameworks that can be utilized include:
 
 Front-end: HTML, CSS, JavaScript, React.js (or other JavaScript frameworks)
+
 Back-end: Node.js, Express.js
-Database: MongoDB (or other preferred database management systems)
-User Authentication: Passport.js (or similar authentication libraries)
-Mapping and Geolocation: Google Maps API (or other mapping services)
+
+Database: MongoDB
+
+User Authentication: Passport.js
+
+Mapping and Geolocation: Google Maps API
+
 By creating YelpCamp, you aim to provide campers with a valuable resource for discovering and sharing information about campgrounds worldwide. The project will not only enhance the camping experience for individuals but also foster a passionate and engaged community of outdoor enthusiasts.
