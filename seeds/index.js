@@ -19,6 +19,7 @@ const seedDB = async () => {
   for (let i = 0; i < 50; i++) {
     const random1000 = Math.floor(Math.random() * 1000);
     const camp = new Campground({
+      geometry: { type: 'Point', coordinates: [ 120.981238, 14.588822 ] },
       location: `${cities[random1000].city}, ${cities[random1000].state}`,
       title: `${sample(descriptors)} ${sample(places)}`,
       author: '64aea6d19c75307f5b29f1be',
