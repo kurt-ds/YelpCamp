@@ -38,3 +38,8 @@ User Authentication: Passport.js
 Mapping and Geolocation: Google Maps API
 
 By creating YelpCamp, you aim to provide campers with a valuable resource for discovering and sharing information about campgrounds worldwide. The project will not only enhance the camping experience for individuals but also foster a passionate and engaged community of outdoor enthusiasts.
+
+## BUGS 
+ - ReturnTo is not working properly
+ - Images are not shown when displayed in the new and edit forms
+ - Limit images to be uploaded

@@ -1,3 +1,8 @@
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config();
+}
+
+
 const express = require("express");
 const mongoose = require("mongoose");
 const path = require("path");
@@ -10,8 +15,7 @@ const passport = require('passport');
 const LocalStrategy = require('passport-local');
 const User = require('./models/user');
 
-//BUG
-//When entering Delete Review Route when not logged in, then after logging it it redirects back to the Delete Route and not to the show route
+
 
 const campgroundRoutes = require('./routes/campground');
 const reviewRoutes = require('./routes/reviews');
